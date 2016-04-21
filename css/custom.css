@@ -1,0 +1,140 @@
+.tags-area {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    border-left-width: 6px;
+    border-left-color: limegreen;
+    margin-bottom: 15px;
+    min-height: 60px;
+}
+
+.new-event-tags {
+    padding: 15px;
+}
+
+.keyword-input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.keyword-input input {
+    color: white;
+    background-color: grey;
+    border-right: 0;
+}
+
+.keyword-input input::-webkit-input-placeholder {
+    color: lightgrey;
+}
+
+.description-input input {
+    color: white;
+    background-color: grey;
+}
+
+.description-input input::-webkit-input-placeholder {
+    color: lightgrey;
+}
+
+.vgl-tag-name {
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 1px 1px 1px 5px;
+    margin: 1px;
+    white-space: nowrap;
+    cursor: default;
+}
+
+.vgl-tag-name a:hover {
+    text-decoration: none;
+}
+
+.list-group .list-group-item:first-child {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.list-group .list-group-item:last-child {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.list-event-item {
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.events-list p {
+    margin-top: 40px;
+}
+
+.vg_icon-clip-style {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px 15px 0px 0px;
+    font-size: 15px;
+}
+
+.vg_icon-x-style {
+    padding: 4px;
+    color: grey;
+}
+
+.vg_icon-clock-style {
+    font-size: 15px;
+}
+
+.vg_icon-edit-style {
+    color: dodgerblue;
+}
+
+.vgl-tag-element .vg_icon-edit {
+    display: none;
+}
+
+.vgl-tag-element:hover .vg_icon-edit {
+    display: inline;
+}
+
+.vgl-timing {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.vg-icon {
+    padding-right: 5px;
+}
+
+span.input-group-addon {
+    background-color: grey;
+}
+
+span.input-group-addon a {
+    text-decoration: none;
+}
+
+#keywordInput {
+    padding-top: 5px;
+    border-left: 0;
+}
+
+#keywordDone {
+    float: right;
+    padding-bottom: 6px;
+    margin-left: -10px;
+}
+
+#keywordDone a {
+    color: limegreen;
+    text-decoration: none;
+}
+
+.add-keyword {
+    font-size: 18px;
+    font-weight: bold;
+    color: limegreen;
+    border: 2px solid limegreen;
+    border-radius: 50%;
+    padding: 0px 5px 3px 5px;
+    margin-right: -5px;
+}
