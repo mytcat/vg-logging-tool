@@ -1,4 +1,31 @@
-.tags-area {
+.dropdown-inline-menu {
+    padding: 0 0 10px 0;
+    min-width: 357px;
+}
+
+.dropdown-menu-inline-left-item {
+    display: inline;
+}
+
+.dropdown-menu-inline-left-item.open>.dropdown-menu {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.dropdown-menu-inline-right-item {
+    display: inline;
+    float: right;
+}
+
+.dropdown-menu-button-style:hover {
+    outline: none !important;
+}
+
+.btn-label-chevron-down-style {
+    padding-left: 20px;
+}
+
+.new-event {
     border: 1px solid lightgrey;
     border-radius: 5px;
     border-left-width: 6px;
@@ -7,13 +34,32 @@
     min-height: 60px;
 }
 
+.tags-area {
+    padding-top: 0;
+    margin-left: -10px;
+}
+
 .new-event-tags {
-    padding: 15px;
+    padding: 0px 15px 15px 15px;
+}
+
+.edit-event-tags {
+    padding: 0px 0px 40px 5px;
+}
+
+.edit-event-input {
+    padding: 0px 10px 0px 6px;
+}
+
+input[type="text"], textarea {
+    outline: none;
+    box-shadow: none !important;
+    border: 0 !important;
 }
 
 .keyword-input {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
 }
 
 .keyword-input input {
@@ -26,6 +72,10 @@
     color: lightgrey;
 }
 
+.description-input {
+        padding: 0px 10px 0px 6px;
+}
+
 .description-input input {
     color: white;
     background-color: grey;
@@ -33,6 +83,15 @@
 
 .description-input input::-webkit-input-placeholder {
     color: lightgrey;
+}
+
+.edit-event {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    border-left-width: 6px;
+    border-left-color: dodgerblue;
+    margin-bottom: 15px;
+    min-height: 60px;
 }
 
 .vgl-tag-name {
@@ -97,8 +156,12 @@
 }
 
 .vgl-timing {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
+}
+
+.vgl-timing p {
+    padding-left: 20px;
 }
 
 .vg-icon {
@@ -115,17 +178,48 @@ span.input-group-addon a {
 
 #keywordInput {
     padding-top: 5px;
-    border-left: 0;
+    border: 0;
 }
 
-#keywordDone {
+.new-keyword-input {
+    padding: 0px 10px 0px 6px;
+}
+
+.new-keyword-done {
     float: right;
     padding-bottom: 6px;
-    margin-left: -10px;
+    margin-left: -13px;
 }
 
-#keywordDone a {
+.new-keyword-done a {
     color: limegreen;
+}
+
+.new-keyword-done a:hover {
+    text-decoration: none;
+}
+
+.edit-keyword {
+    font-size: 18px;
+    font-weight: bold;
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+    padding: 0px 5px 3px 5px;
+    margin-right: -5px;
+}
+
+.edit-keyword-done {
+    float: right;
+    padding-bottom: 6px;
+    margin-left: -13px;
+}
+
+.edit-keyword-done a {
+    color: dodgerblue;
+}
+
+.edit-keyword-done a:hover {
     text-decoration: none;
 }
 
