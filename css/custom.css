@@ -1,20 +1,86 @@
-.dropdown-inline-menu {
-    padding: 0 0 10px 0;
-    min-width: 357px;
-}
-
-.dropdown-menu-inline-left-item {
-    display: inline;
-}
-
-.dropdown-menu-inline-left-item.open>.dropdown-menu {
+.search-table {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 35px;
 }
 
-.dropdown-menu-inline-right-item {
-    display: inline;
+.search-input-cell {
+    width: 70%;
+}
+
+.search-input-cell input {
+    outline: none;
+    box-shadow: none !important;
+    border-color: darkgrey !important;
+    background-color: grey;
+    color: white;
+}
+
+.search-input-cell input::-webkit-input-placeholder {
+    color: white;
+}
+
+.search-input-cell .input-group button {
+    outline: none;
+    border-color: darkgrey !important;
+    background-color: lightgrey;
+}
+
+.search-input-cell .input-group button:hover {
+    outline: none !important;
+}
+
+.search-clear-button-cell {
+    width: 30%;
+}
+
+.search-clear-button-cell .input-group {
     float: right;
+}
+
+.search-clear-button-cell span {
+    white-space: nowrap;
+}
+
+.search-clear-button-cell a {
+    padding-right: 7px;
+    color: lightgrey;
+}
+
+.search-clear-button-cell a:hover {
+    text-decoration: none;
+}
+
+.dropdown-menu-table {
+    width: 100%;
+    padding-top: 
+}
+
+.dropdown-menu-table button:hover {
+    outline: none !important;
+}
+
+.dropdown-menu-left-item {
+    width: 50%;
+    white-space: nowrap;
+}
+
+.dropdown-menu-left-item .left-item-chevron {
+    padding-left: 30px;
+}
+
+.dropdown-menu-right-item {
+    text-align: right;
+    width: 50%;
+    white-space: nowrap;
+}
+
+.dropdown-menu-right-item .right-item-chevron {
+    padding-left: 50px;
+}
+
+.dropdown-menu-table .open>.dropdown-menu {
+    width: 100%;
 }
 
 .dropdown-menu-button-style:hover {
@@ -51,7 +117,13 @@
     padding: 0px 10px 0px 6px;
 }
 
-input[type="text"], textarea {
+.edit-event-input input {
+    outline: none;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.description-input input {
     outline: none;
     box-shadow: none !important;
     border: 0 !important;
@@ -183,6 +255,12 @@ span.input-group-addon a {
 
 .new-keyword-input {
     padding: 0px 10px 0px 6px;
+}
+
+.new-keyword-input input {
+    outline: none;
+    box-shadow: none !important;
+    border: 0 !important;
 }
 
 .new-keyword-done {
