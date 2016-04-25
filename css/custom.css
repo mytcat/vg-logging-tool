@@ -42,9 +42,8 @@
     white-space: nowrap;
 }
 
-.search-clear-button-cell a {
+.search-clear-button-cell .vg_icon-x {
     padding-right: 7px;
-    color: lightgrey;
 }
 
 .search-clear-button-cell a:hover {
@@ -123,10 +122,10 @@
     border: 0 !important;
 }
 
-.description-input input {
-    outline: none;
-    box-shadow: none !important;
-    border: 0 !important;
+.edit-event-input .vg_icon-plus {
+    font-size: 23px;
+    font-weight: bold;
+    color: dodgerblue;
 }
 
 .keyword-input {
@@ -149,6 +148,9 @@
 }
 
 .description-input input {
+    outline: none;
+    box-shadow: none !important;
+    border: 0 !important;
     color: white;
     background-color: grey;
 }
@@ -164,6 +166,14 @@
     border-left-color: dodgerblue;
     margin-bottom: 15px;
     min-height: 60px;
+}
+
+.edit-event .vgl-timing a {
+    text-decoration: none;
+}
+
+.edit-event .vgl-timing .time-total {
+    cursor: default;
 }
 
 .vgl-tag-name {
@@ -194,6 +204,18 @@
     margin-top: 10px;
 }
 
+.events-list .time-from a {
+    text-decoration: none;
+}
+
+.events-list .time-to a {
+    text-decoration: none;
+}
+
+.events-list .time-total {
+    cursor: default;
+}
+
 .events-list p {
     margin-top: 40px;
 }
@@ -219,6 +241,12 @@
     color: dodgerblue;
 }
 
+.new-keyword-input .vg_icon-plus {
+    font-size: 23px;
+    font-weight: bold;
+    color: limegreen;
+}
+
 .vgl-tag-element .vg_icon-edit {
     display: none;
 }
@@ -234,6 +262,14 @@
 
 .vgl-timing p {
     padding-left: 20px;
+}
+
+.new-event .vgl-timing a {
+    text-decoration: none;
+}
+
+.new-event .vgl-timing .time-total {
+    cursor: default;
 }
 
 .vg-icon {
@@ -275,16 +311,6 @@ span.input-group-addon a {
 
 .new-keyword-done a:hover {
     text-decoration: none;
-}
-
-.edit-keyword {
-    font-size: 18px;
-    font-weight: bold;
-    color: dodgerblue;
-    border: 2px solid dodgerblue;
-    border-radius: 50%;
-    padding: 0px 5px 3px 5px;
-    margin-right: -5px;
 }
 
 .edit-keyword-done {
