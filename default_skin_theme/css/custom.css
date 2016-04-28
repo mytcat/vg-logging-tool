@@ -260,6 +260,10 @@
     color: #989898;
 }
 
+.vgl-tag-list-wrapper {
+    max-width: 420px;
+}
+
 .events-list .time-from a {
     text-decoration: none;
     color: #f4f4f4;
@@ -298,19 +302,19 @@
 }
 
 .vg_icon-in-style {
-    color: rgba(153,153,154,.3);
+    color: #989898;
     font-size: 15px;
 }
 
 .vg_icon-out-style {
-    color: rgba(153,153,154,.3);
+    color: #989898;
     font-size: 15px;
 }
 
 .vg_icon-clock-style {
     font-size: 16px;
     font-weight: 900 !important;
-    color: rgba(153,153,154,.3);
+    color: #989898;
 }
 
 .vg_icon-edit-style {
@@ -326,6 +330,10 @@
     font-size: 23px;
     font-weight: bold;
     color: #b6f832;
+}
+
+.vgl-tag-sub-element {
+    display: inline-block;
 }
 
 .vgl-tag-element .vg_icon-edit {
