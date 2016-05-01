@@ -183,6 +183,20 @@
     padding: 0px 0px 15px 5px;
 }
 
+.edit-description-done-button {
+    font-size: medium;
+    padding-top: 0;
+    padding-left: 20px;
+}
+
+.edit-description-done-button a {
+    color: #00b9ff;
+}
+.edit-description-done-button a:hover {
+    color: #00b9ff;
+    text-decoration: none;
+}
+
 .edit-event-input {
     padding: 0px 10px 0px 6px;
 }
@@ -192,6 +206,10 @@
     box-shadow: none !important;
     border: solid #232425;
     border-width: 1px 0 0 1px;
+}
+
+.edit-event-input input:focus {
+    border-color: #232425;
 }
 
 .edit-event-input .vg_icon-plus {
@@ -211,14 +229,24 @@
 .edit-event-description-input input {
     outline: none;
     box-shadow: none !important;
+    background-color: inherit;
+    border: 0;
+    cursor: pointer;
+}
+
+.edit-event-description-input input:focus {
+    border-color: #232425;
+}
+
+.edit-event-description-input input::-webkit-input-placeholder {
+    color: #989898;
+}
+
+.edit-event-description-input input:focus {
     background-color: #333436;
     color: white;
     border: solid #232425;
     border-width: 1px 0 0 1px;
-}
-
-.edit-event-description-input input::-webkit-input-placeholder {
-    color: #f4f4f4;
 }
 
 .keyword-input {
@@ -253,12 +281,14 @@
     color: #f4f4f4;
 }
 
+.description-input input:focus {
+    border-color: #232425;
+}
+
 .vgl-tag-name {
     font-size: 13px;
     font-weight: 400;
     color: rgb(255,255,255);
-    /*background-color: rgba(255,255,255,0.1);
-    border-radius: 5px;*/
     padding: 1px 5px 1px 5px;
     margin: 1px;
     white-space: nowrap;
@@ -448,10 +478,13 @@ span.input-group-addon a {
 .new-keyword-input input {
     outline: none;
     box-shadow: none !important;
-/*    border: 0 !important;*/
     border: 1px solid #232425;
     border-bottom: 0px;
     border-right: 0px;
+}
+
+.new-keyword-input input:focus {
+    border-color: #232425;
 }
 
 .new-keyword-done a {

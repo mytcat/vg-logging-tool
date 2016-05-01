@@ -15,23 +15,36 @@
           type="image/ico" 
           href="/default_skin_theme/static/img/favicon.ico" />
     
-   <!-- <style>
+    <!-- Default Event View -->
+    <style>
         .edit-event-top-input {display: none;}
         .edit-event-description-input {display: none;}
         .edit-event {padding: 10px 15px 10px 3px; border-radius: 5px;}
-        .edit-event-tags-clip-area {display: inline-flex;}
-        .edit-event-tags {display: inline; padding-top: 6px;}
-        .edit-event-right-clip {display: inline;}
+        .edit-event-tags-clip-area {display: inline-flex; padding-bottom: 15px;}
+        .edit-event-tags {display: inline; padding-top: 6px; padding-right: 0;}
+        .edit-event-right-clip {display: inline; margin-left: 50px;}
         .edit-event .vgl-timing {padding-bottom: 4px;}
         .edit-event:hover {background-color: #3f4042;}
+        .edit-description-done-button {display: none;}
+    </style>
+    
+    <!-- Additing Keywords -->
+  <!--  <style>
+        .vg_icon-clip-style-two {display: none;}
+        .edit-event {padding-bottom: 3px;border: solid #00b9ff; border-width: 0 0 0 6px;}
+        .edit-event:hover {background-color: #3f4042;}
+        .edit-event-tags {padding-left: 10px;}
+        .edit-description-done-button {display: none;}
     </style>-->
     
-    <style>
+    <!-- Edditing Description -->    
+    <!--<style>
         .vg_icon-clip-style-two {display: none;}
-        .edit-event-description-input {display: none;}
-        .edit-event {padding-bottom: 3px;border: solid #21bafd; border-width: 0 0 0 6px;}
-        .edit-event:hover {background-color: #3f4042;}
-    </style>
+        .edit-event {padding-top: 10px; padding-bottom: 3px; border: solid #00b9ff; border-width: 0 0 0 6px;}
+        .edit-event-top-input {display: none;}
+        .edit-event-tags {padding: 0 0 35px 10px;}
+        .edit-event-description-input input {padding-right: 8px;}        
+    </style>-->
     
     <title>VG Logging tool</title>
 </head>
@@ -182,34 +195,34 @@
                                     </td>
                                 </tr>
                             </table>
-                            <div class="group-form">
+                            <div class="row-fluid">
                                 <div class="edit-event-tags-clip-area">
-                                    <div class="edit-event-tags">
-                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Dark<a href=""><span
+                                    <div class="edit-event-tags col-xs-10">
+                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Keyword<a href=""><span
                                                 class="vg_icon-x vg_icon-x-style"></span></a></span></span></span>
-                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Knife<a href=""><span
+                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Keyword Keyword Keyword<a href=""><span
                                                 class="vg_icon-x vg_icon-x-style"></span></a></span></span></span>
-                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Super<a href=""><span
+                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Keyword Keyword<a href=""><span
                                                 class="vg_icon-x vg_icon-x-style"></span></a></span></span></span>
-                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Hero<a href=""><span
+                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Keyword<a href=""><span
                                                 class="vg_icon-x vg_icon-x-style"></span></a></span></span></span>
-                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Expectation<a href=""><span
+                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Keyword Keyword Keyword<a href=""><span
                                                 class="vg_icon-x vg_icon-x-style"></span></a></span></span></span>
-                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Super Heroes<a href=""><span
+                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Keyword Keyword<a href=""><span
                                                 class="vg_icon-x vg_icon-x-style"></span></a></span></span></span>
-                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Illumination<a href=""><span
+                                        <span class="vgl-tag-element"><span class="vgl-tag-sub-element"><span class="vgl-tag-name">Keyword<a href=""><span
                                                 class="vg_icon-x vg_icon-x-style"></span></a></span></span></span>
                                     </div>
+                                    <div class="edit-description-done-button col-xs-2"><a href="">Done</a></div>
                                     <div class="edit-event-right-clip">
                                         <a href=""><span class="vg_icon-clip vg_icon-clip-style-two"></span></a>
                                     </div>
                                 </div>    
                             </div>
                             <div class="edit-event-description-input">
-                                <input type="text" class="form-control" placeholder="Add Description">
+                                <input type="text" class="form-control" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do">
                             </div>
                             <div class="row-fluid vgl-timing">
-                                <span class="edit-event-description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p></span>
                                 <div class="col-xs-3 time-from"><a href=""><span class="vg-icon vg_icon-in vg_icon-in-style"></span>00:00:00:00</a></div>
                                 <div class="col-xs-3 time-to" ><a href=""><span class="vg-icon vg_icon-out vg_icon-out-style vg_icon-out vg_icon-out-style-style"></span>00:00:00:00</a></div>
                                 <div class="col-xs-2"></div>
@@ -219,7 +232,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="events-list">
+                <!--<div class="events-list">
                     <ul class="list-group">
                         <div>
                             <li class="list-group-item list-event-item">
@@ -246,7 +259,7 @@
                             </li>
                         </div>
                     </ul>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
