@@ -161,8 +161,7 @@
 }
 
 .edit-event {
-    margin-top: 8px;
-    margin-bottom: 8px;
+    padding-top: 8px;
     min-width: 340px;
     background: rgba(255,255,255,.1);
     border-radius: 5px;
@@ -181,6 +180,10 @@
 
 .edit-event-tags {
     padding: 0px 0px 15px 5px;
+}
+
+.edit-event form {
+    margin-bottom: 0;
 }
 
 .edit-description-done-button {
@@ -207,6 +210,11 @@
     border: solid #232425;
     border-width: 1px 0 0 1px;
 }
+
+.keyword-input .edit-event-input input::-webkit-input-placeholder { color: #999999; }
+.keyword-input .edit-event-input input:-moz-placeholder { color: #999999; }
+.keyword-input .edit-event-input input::-moz-placeholder { color: #999999; }
+.keyword-input .edit-event-input input:-ms-input-placeholder { color: #999999; }
 
 .edit-event-input input:focus {
     border-color: #232425;
@@ -250,7 +258,7 @@
 }
 
 .keyword-input {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 7px;
 }
 
@@ -277,9 +285,10 @@
     background-color: #333436;
 }
 
-.description-input input::-webkit-input-placeholder {
-    color: #f4f4f4;
-}
+.description-input input::-webkit-input-placeholder { color: #999999; }
+.description-input input:-moz-placeholder { color: #999999; }
+.description-input input::-moz-placeholder { color: #999999; }
+.description-input input:-ms-input-placeholder { color: #999999; }
 
 .description-input input:focus {
     border-color: #232425;
@@ -309,20 +318,15 @@
   border-bottom-right-radius: 5px;
 }
 
+.li-wrapper {
+    padding-top: 8px;
+}
+
 .events-list li {
     background: rgba(255,255,255,.1);
     border: 0;
-    padding-left: 8px;
+    padding: 0;
 }
-
-.events-list li:hover {
-    background-color: #3f4042;
-}
-
-/*
-.list-event-item:active .vg_icon-edit-style {
-    display: inline-block !important;
-}*/
 
 .list-event-item {
     border-radius: 5px;
@@ -428,7 +432,7 @@
 
 .vgl-timing {
     padding-top: 10px;
-    padding-bottom: 14px;
+    padding-bottom: 30px;
 }
 
 .vgl-timing p {
@@ -486,6 +490,11 @@ span.input-group-addon a {
 .new-keyword-input input:focus {
     border-color: #232425;
 }
+
+.new-keyword-input input::-webkit-input-placeholder { color: #999999; }
+.new-keyword-input input:-moz-placeholder { color: #999999; }
+.new-keyword-input input::-moz-placeholder { color: #999999; }
+.new-keyword-input input::-ms-input-placeholder { color: #999999; }
 
 .new-keyword-done a {
     padding-right: 5px;
