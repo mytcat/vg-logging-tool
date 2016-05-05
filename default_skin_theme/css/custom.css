@@ -143,8 +143,20 @@
     color: #f4f4f4;
 }
 
+.resizible {
+    border-left: 100px solid white;
+}
+
 .btn-label-chevron-down-style {
     padding-left: 20px;
+}
+
+.scrollable {
+    width: 100%;
+    height: calc(80% - 50px);
+    float: right;
+    margin-top: 10px;
+    overflow-y: scroll;
 }
 
 .new-event {
